@@ -224,58 +224,11 @@ At the end of its execution, the script will have created and initialized the ne
 
 </details>
 
-### 06: Set GitHub Environment Variables
+### 06: Setup AI Foundy Hub and Connected resources
 
-<details markdown="block">
-<summary>Expand this section to view the solution</summary>
+# Azure AI Studio Chat RAG
 
-1. Go to the newly created project repository and set the following GitHub environment variables and secret for three environments: `dev`, `qa`, and `prod`.
-
-   1. **Environment Variables:**
-      1. `AZURE_ENV_NAME`
-      1. `AZURE_LOCATION`
-      1. `AZURE_SUBSCRIPTION_ID`
-   
-   1. **Secret:**
-      1. `AZURE_CREDENTIALS`
-
- After creating the variables and secret, your Environments page should resemble the following example:
-   
-   ![Environments Page](images/bootstrapping_environments.png)
-   
-   Below is an example of environment variable values for a development environment:
-   
-   ![Environment Variables](images/bootstrapping_env_vars.png)
-   
-   The `AZURE_CREDENTIALS` secret should be formatted as follows:
-    
-   ```json
-   {
-       "clientId": "your-client-id",
-       "clientSecret": "your-client-secret",
-       "subscriptionId": "your-subscription-id",
-       "tenantId": "your-tenant-id"
-   }
-   ```
-
-   {: .note } 
-   > If you are only interested in experimenting with this accelerator, you can use the same subscription, varying only `AZURE_ENV_NAME` for each enviornment.
-
-</details>
-
-### 07. Enable GitHub Actions
-
-<details markdown="block">
-<summary>Expand this section to view the solution</summary>
-
-1. Ensure that GitHub Actions are enabled in your repository, as in some cases, organizational policies may not have this feature enabled by default. To do this, simply select **Enable Actions on this repository**, as indicated in the figure below:
-
-   ![Enable Actions](images/enable_github_actions.png)
-
-</details>
-
-That's all! Your new project is now bootstrapped and you are ready to start the workshop.
-</details>
+[![Deploy to Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fctava-msft%2Faiworkshop%2Fmain%2Fazuredeploy.json)
 
 
 ### References
