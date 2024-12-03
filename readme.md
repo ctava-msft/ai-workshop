@@ -1,9 +1,3 @@
----
-title: Introduction
-layout: home
-nav_order: 1
----
-
 # Operationalize Language Models
 
 In this workshop, you may gain an overview of how to use Azure AI to work with language models (LMs) tailored for Fresenius Medicalcare Company. This workshop aims to familiarize the team with the basics of Azure AI services and how they can be leveraged to meet their unique needs.

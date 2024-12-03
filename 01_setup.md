@@ -1,11 +1,4 @@
----
-title: '00: Setup'
-layout: default
-nav_order: 1
-parent: 'Exercise 01: Introduction to LMs and Azure AI Services'
----
-
-# Task 00: Setup AI Project and AI Hub Resources
+# Setup AI Project and AI Hub Resources
 
 ## Description
 
