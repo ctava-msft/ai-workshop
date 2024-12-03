@@ -90,8 +90,8 @@ To setup for this workshop, please click to access the setup instructions here:
 This workshop covers the following:
 
 * Configuring and setting up Azure AI Foundry Project
-* Set up a Conversational RAG Flow
-* Emulated chat interactions and testing
+* Chatting with your data using a Language Model
+* Testing chat interactions
 
 Here are links to the exercises that are included in this workshop:
 
