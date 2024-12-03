@@ -6,50 +6,11 @@ nav_order: 1
 
 # Operationalize Language Models
 
-## Azure services and related products
-
-The following Azure Services are involved in the workshop:
-- Azure AI Foundry
-- Azure OpenAI
-- Azure Hub
-- Azure AI Deployments
-- Azure Content Safety
-
-## Solution architecture
-
-The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with services including Azure OpenAI, Azure AI Search, and Azure Storage Accounts to implement AI-based solutions. The AI Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4, PHI-3 and interactive development tools.
-
-The following diagram shows Azure AI Studio and the scope of use within the environment:
-![Diagram showing Azure AI Studio and the scope of use within the environment](resource-provider-connected-resources.svg)
-
-
-
-## Exercises
-
-This workshop has the following exercises:
-
-* Configuring and setting up Azure AI Foundry Project
-* Set up a Conversational RAG Flow
-* Emulated chat interactions and testing
-
-## Prerequisites
-
-An Azure (external) subscription is required, where you can create an AI Project along with its AI Hub Resource, a Content Safety service, a new instance of Azure OpenAI, and an AI Search service.
-
-## Setup
-
-To setup for this workshop, please click to access the setup instructions here:
-
-[Link to Setup](01_setup.md)
-
-
-##  Workshop Scenario
-
 In this workshop, you may gain an overview of how to use Azure AI to work with language models (LMs) tailored for Fresenius Medicalcare Company. This workshop aims to familiarize the team with the basics of Azure AI services and how they can be leveraged to meet their unique needs.
 
 The focus will be on understanding the overall process of creating, evaluating, and deploying LMs within the Azure environment. This foundational knowledge may be crucial if you decide to delve deeper into the build, evaluation, deployment, and monitoring processes in subsequent workshops.
 
-By the end of this workshop, you as part of the Lamna team will have a solid understanding of the basic tools and services available in Azure AI Foundry.
+By the end of this workshop, you as part of the Fresenius Medicalcare team will have a solid understanding of the basic tools and services available in Azure AI Foundry.
 
 ## Objectives
 
@@ -97,13 +58,48 @@ Log Analytics Workspaces serve as the backing storage for application insights, 
 
 </details>
 
+## Azure services and related products
+
+The following Azure Services are involved in the workshop:
+- Azure AI Foundry
+- Azure OpenAI
+- Azure Hub
+- Azure AI Deployments
+- Azure Content Safety
+
+## Solution architecture
+
+The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with services including Azure OpenAI, Azure AI Search, and Azure Storage Accounts to implement AI-based solutions. The AI Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4, PHI-3 and interactive development tools.
+
+The following diagram shows Azure AI Studio and the scope of use within the environment:
+![Diagram showing Azure AI Studio and the scope of use within the environment](resource-provider-connected-resources.svg)
+
+
+## Prerequisites
+
+An Azure (external) subscription is required, where you can create an AI Project along with its AI Hub Resource, a Content Safety service, a new instance of Azure OpenAI, and an AI Search service.
+
+## Setup
+
+To setup for this workshop, please click to access the setup instructions here:
+
+[Link to Setup](01_setup.md)
+
+
+
 ## Lab Duration
 
 * **Estimated Time:** 60 minutes
 
 ## Exercises
 
-The following execrises are included in this workshop:
+This workshop covers the following:
+
+* Configuring and setting up Azure AI Foundry Project
+* Set up a Conversational RAG Flow
+* Emulated chat interactions and testing
+
+Here are links to the execrises that are included in this workshop:
 
 [Use the Azure AI Foundry Playground](01_01.md)
 
