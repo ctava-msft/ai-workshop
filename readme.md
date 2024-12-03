@@ -65,8 +65,8 @@ The following Azure Services are involved in the workshop:
 
 The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with services including Azure OpenAI, Azure AI Search, and Azure Storage Accounts to implement AI-based solutions. The AI Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4, PHI-3 and interactive development tools.
 
-The following diagram shows Azure AI Studio and the scope of use within the environment:
-![Diagram showing Azure AI Studio and the scope of use within the environment](resource-provider-connected-resources.svg)
+The following diagram shows Azure AI Foundry and the scope of use within the environment:
+![Diagram showing Azure AI Foundry and the scope of use within the environment](resource-provider-connected-resources.svg)
 
 
 ## Prerequisites

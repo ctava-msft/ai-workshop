@@ -83,7 +83,7 @@ echo $results | jq -r '.[] | select(.name.value == "OpenAI.Standard.text-embeddi
 
 ## Steps to Bootstrap a Project
 
-The bootstrapping process involves **creating a new project repository on GitHub** and populating it with content from a project template. Additionally, it sets up the **development environment** for your project. This environment will include an **Azure AI Studio project** and deploy the necessary resources to support a centralized **Azure AI Hub**.
+The bootstrapping process involves **creating a new project repository on GitHub** and populating it with content from a project template. Additionally, it sets up the **development environment** for your project. This environment will include an **Azure AI Foundry project** and deploy the necessary resources to support a centralized **Azure AI Hub**.
 
 ### 01: Clone the GenAIOps Repo into a temporary directory
 
