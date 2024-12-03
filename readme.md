@@ -109,4 +109,4 @@ The following execrises are included in this workshop:
 
 [Work with an Open Source LM Model](01_02.md)
 
-[Test language model prompts for Content Safety](01_02.md)
+[Test language model prompts for Content Safety](01_03.md)
