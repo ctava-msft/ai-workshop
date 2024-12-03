@@ -93,7 +93,7 @@ This workshop covers the following:
 * Set up a Conversational RAG Flow
 * Emulated chat interactions and testing
 
-Here are links to the execrises that are included in this workshop:
+Here are links to the exercises that are included in this workshop:
 
 [Use the Azure AI Foundry Playground](01_01.md)
 
