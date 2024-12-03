@@ -60,10 +60,6 @@ After you complete this workshop, you will be able to:
 * Work with an Open Source LM Model.
 * Test the prompt in Content Safety.
 
-## Lab Duration
-
-* **Estimated Time:** 60 minutes
-
 <details markdown="block">
 <summary>Index of key Concepts of Azure AI Foundry</summary>
 
@@ -100,6 +96,10 @@ Application Insights is used as a log storage option when you choose to enable a
 Log Analytics Workspaces serve as the backing storage for application insights, handling log ingestion. They provide a scalable and reliable solution for storing and analyzing log data from your AI applications.
 
 </details>
+
+## Lab Duration
+
+* **Estimated Time:** 60 minutes
 
 ## Exercises
 
