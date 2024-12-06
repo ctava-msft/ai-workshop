@@ -28,7 +28,7 @@ Azure AI projects are organizational containers that provide tools for AI custom
    
 ## Azure AI Service  
    
-The Azure AI Service offers a unified endpoint and API Keys to access multiple services, such as Azure OpenAI, Content Safety, Speech, and Vision. These services are shared across all projects, providing a centralized and efficient way to access them.  
+The Azure AI Service offers a unified endpoint and API Keys to access multiple services, such as Azure Content Safety, Speech, and Vision. These services are shared across all projects, providing a centralized and efficient way to access them.
    
 ## Storage Account  
    
@@ -56,14 +56,12 @@ Log Analytics Workspaces serve as the backing storage for application insights, 
 
 The following Azure Services are involved in the workshop:
 - Azure AI Foundry
-- Azure OpenAI
-- Azure Hub
-- Azure AI Deployments
+- Azure AI Services
 - Azure Content Safety
 
 ## Solution architecture
 
-The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with services including Azure OpenAI, Azure AI Search, and Azure Storage Accounts to implement AI-based solutions. The AI Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4, PHI-3 and interactive development tools.
+The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with AI services, and Azure Storage Accounts to implement AI-based solutions. The AI Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4, PHI-3 and interactive development tools.
 
 The following diagram shows Azure AI Foundry and the scope of use within the environment:
 ![Diagram showing Azure AI Foundry and the scope of use within the environment](resource-provider-connected-resources.svg)
@@ -71,7 +69,7 @@ The following diagram shows Azure AI Foundry and the scope of use within the env
 
 ## Prerequisites
 
-An Azure (external) subscription is required, where you can create an AI Project along with its AI Hub Resource, a Content Safety service, a new instance of Azure OpenAI, and an AI Search service.
+An Azure (external) subscription is required, where you can create an AI Project along with its AI Hub Resource, a Content Safety service, a new instance of Azure Service.
 
 ## Setup
 

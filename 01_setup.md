@@ -24,9 +24,6 @@ In this setup task, you will learn how to **start a new project** by creating a 
 
 ### You will also need:
 * [Azure Subscription](https://azure.microsoft.com/free/) - sign up for a free account.
-* [GitHub Account](https://github.com/signup) - sign up for a free account.
-* [Access to Azure OpenAI](https://learn.microsoft.com/legal/cognitive-services/openai/limited-access) - submit a form to request access.
-* Permissions to create a Service Principal (SP) in your Azure AD Tenant.
 * Permissions to assign the Owner role or Contributor and User Access Administrator to the SP within the subscription.
 
 {: .note }
@@ -49,8 +46,8 @@ From a command line, verify the tools are installed and on your path.
 > if any of the tools suggest an upgrade please do so. This can be acomplished with the ```winget upgrade``` conmand 
 
 
-### Check Azure OpenAI Model Availability:
-You will need 40k TPM of gpt-35-turbo, gpt-4o and text-embedding-ada-002 models. If the region you want to use does not have availability, you can choose another region. 
+### Check Azure Model Availability:
+You will need 40k TPM of gpt-4o model. If the region you want to use does not have availability, you can choose another region. 
 
 1. Run the following command in powershell or bash to check how many TPMs do you have available for those models in the desired region/sub.
 
@@ -61,8 +58,6 @@ $subscriptionId = "replace by your subscription id"
 $region = "replace by the desired region" 
 $results = az cognitiveservices usage list --subscription $subscriptionId --location $region 
 $results | ConvertFrom-Json | Where-Object { $_.name.value -eq 'OpenAI.Standard.gpt-4o' } | Select-Object *
-$results | ConvertFrom-Json | Where-Object { $_.name.value -eq 'OpenAI.Standard.gpt-35-turbo' } | Select-Object *
-$results | ConvertFrom-Json | Where-Object { $_.name.value -eq 'OpenAI.Standard.text-embedding-ada-002' } | Select-Object *
 ```
 
 #### bash
@@ -72,8 +67,7 @@ subscriptionId="replace by your subscription id"
 region="replace by the desired region" 
 results=$(az cognitiveservices usage list --subscription $subscriptionId --location $region) 
 echo $results | jq -r '.[] | select(.name.value == "OpenAI.Standard.gpt-4o")'
-echo $results | jq -r '.[] | select(.name.value == "OpenAI.Standard.gpt-35-turbo")'
-echo $results | jq -r '.[] | select(.name.value == "OpenAI.Standard.text-embedding-ada-002")'
+text-embedding-ada-002")'
 ```
 {: .note }
 > Availability, quotas, and limits:
