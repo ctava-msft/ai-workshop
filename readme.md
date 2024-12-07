@@ -1,4 +1,4 @@
-# Operationalizing Language and Vision Models
+# Introduction to Language and Vision Models
 
 In this workshop, you may gain an overview of how to use Azure AI to work with language models (LMs) and Vision Models (VMs). This workshop aims to familiarize the team with the basics of Azure AI services to spark ideas on how they can be leveraged to meet your use cases.
 
