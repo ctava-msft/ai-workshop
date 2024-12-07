@@ -11,9 +11,9 @@ By the end of this workshop, you as part of the Fresenius Medicalcare team will 
 After you complete this workshop, you will be able to:
 
 * Bootstrap your project.
-* Use AzureAI Foundry Playground.
-* Work with an Open Source LM Model.
-* Test the prompt in Content Safety.
+* Use AzureAI Chat Playground.
+* Test chat for Content Safety.
+* Use AzureAI Language Playground.
 
 <details markdown="block">
 <summary>Index of key Concepts of Azure AI Foundry</summary>
@@ -61,10 +61,11 @@ The following Azure Services are involved in the workshop:
 
 ## Solution architecture
 
-The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with AI services, and Azure Storage Accounts to implement AI-based solutions. The AI Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4, PHI-3 and interactive development tools.
+The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with AI services, and Azure Storage Accounts to implement AI-based solutions. The Chat Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4o, PHI-3 and interactive development tools.
 
 The following diagram shows Azure AI Foundry and the scope of use within the environment:
-![Diagram showing Azure AI Foundry and the scope of use within the environment](resource-provider-connected-resources.svg)
+
+![Diagram showing Azure AI Foundry and the scope of use within the environment](resource-provider-conoected-resources.svg)
 
 
 ## Prerequisites
@@ -77,8 +78,6 @@ To setup for this workshop, please click to access the setup instructions here:
 
 [Link to Setup](01_setup.md)
 
-
-
 ## Lab Duration
 
 * **Estimated Time:** 60 minutes
@@ -88,13 +87,17 @@ To setup for this workshop, please click to access the setup instructions here:
 This workshop covers the following:
 
 * Configuring and setting up Azure AI Foundry Project
-* Chatting with your data using a Language Model
-* Testing chat interactions
+* Chatting with your data using the Chat Playground
+* Testing chat interactions for Content Safety
+* Extracting health insurance card information from a picture
+* Extracting PII from text using using the Language Playground
 
 Here are links to the exercises that are included in this workshop:
 
-[Use the Azure AI Foundry Playground](01_01.md)
+[Use the Azure AI Chat Playground](01_01.md)
 
-[Work with an Open Source LM Model](01_02.md)
+[Test language model prompts for Content Safety in the Azure AI Chat Playground](01_02.md)
 
-[Test language model prompts for Content Safety](01_03.md)
+[Use the Azure AI Vision & Document Playground](01_03.md)
+
+[Use the Azure AI Language Playground](01_4.md)
