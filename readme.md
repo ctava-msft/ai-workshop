@@ -1,10 +1,12 @@
 # Introduction to Language and Vision Models
 
-In this workshop, you may gain an overview of how to use Azure AI to work with language models (LMs) and Vision Models (VMs). This workshop aims to familiarize the team with the basics of Azure AI services to spark ideas on how they can be leveraged to meet your use cases.
+In this workshop, you may gain an overview of how to use Azure AI to work with language models (LMs) and Vision Models (VMs). 
 
-The focus will be on understanding the overall process of creating, evaluating, and deploying LMs and VMs within your Azure environment. This foundational knowledge may be crucial if you decide to delve deeper into the build, evaluation, deployment, and monitoring processes in subsequent workshops.
+This workshop aims to assist you in familiarize yourself with the basics of Azure AI services to spark ideas on how they can be leveraged to meet your use cases.
 
-By the end of this workshop, you as part of the Fresenius Medicalcare team will have a solid understanding of the basic tools and services available in Azure AI Foundry.
+This foundational knowledge may be helpful if you decide to delve deeper into the evaluation, build, deployment, and monitoring of AI Services in subsequent workshops and projects.
+
+By the end of this workshop, you as part of the FMC team, will have a solid understanding of the basic tools and services available in Azure AI Foundry.
 
 ## Objectives
 
