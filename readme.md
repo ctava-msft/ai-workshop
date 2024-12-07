@@ -11,9 +11,10 @@ By the end of this workshop, you as part of the Fresenius Medicalcare team will 
 After you complete this workshop, you will be able to:
 
 * Bootstrap your project.
-* Use AzureAI Chat Playground.
-* Test chat for Content Safety.
-* Use AzureAI Language Playground.
+* Use Azure AI Chat Playground.
+* Test chat for Content Safety in Azure AI Chat Playground.
+* Use Azure AI Vision Playground.
+* Use Azure AI Language Playground.
 
 <details markdown="block">
 <summary>Index of key Concepts of Azure AI Foundry</summary>
