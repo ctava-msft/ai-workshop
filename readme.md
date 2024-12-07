@@ -66,7 +66,7 @@ The architecture of this workshop includes an AI project within Azure AI Foundry
 
 The following diagram shows Azure AI Foundry and the scope of use within the environment:
 
-![Diagram showing Azure AI Foundry and the scope of use within the environment](resource-provider-conoected-resources.svg)
+![Diagram](./images/resource-provider-connected-resources.png)
 
 
 ## Prerequisites
