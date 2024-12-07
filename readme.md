@@ -90,7 +90,7 @@ This workshop covers the following:
 * Configuring and setting up Azure AI Foundry Project
 * Chatting with your data using the Chat Playground
 * Testing chat interactions for Content Safety
-* Extracting health insurance card information from a picture
+* Extracting health insurance card information from a picture using the Vision Playground
 * Extracting PII from text using using the Language Playground
 
 Here are links to the exercises that are included in this workshop:
