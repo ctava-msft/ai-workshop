@@ -17,7 +17,15 @@ After you complete this workshop, you will be able to:
 * Use Azure AI Language Playground.
 
 <details markdown="block">
-<summary>Index of key Concepts of Azure AI Foundry</summary>
+<summary>Solution Architecture and Index of Key Concepts </summary>
+
+## Solution Architecture
+
+The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with AI services, and Azure Storage Accounts to implement AI-based solutions. The Chat Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4o, PHI-3 and interactive development tools.
+
+The following diagram shows Azure AI Foundry and the scope of use within the environment:
+
+![Diagram](./images/resource-provider-connected-resources.png)
 
 ## Azure AI Resource  
    
@@ -59,15 +67,6 @@ The following Azure Services are involved in the workshop:
 - Azure AI Foundry
 - Azure AI Services
 - Azure Content Safety
-
-## Solution architecture
-
-The architecture of this workshop includes an AI project within Azure AI Foundry. The AI Foundry Hub includes the Azure Subcription, Resource Group, and Azure Content Safety service. The AI Foundry Hub provides integration with AI services, and Azure Storage Accounts to implement AI-based solutions. The Chat Playground offers tools like Chat Playground, Deployments, and Prompt Flow, that enable quick and easy access to AI models such as GPT-4o, PHI-3 and interactive development tools.
-
-The following diagram shows Azure AI Foundry and the scope of use within the environment:
-
-![Diagram](./images/resource-provider-connected-resources.png)
-
 
 ## Prerequisites
 
