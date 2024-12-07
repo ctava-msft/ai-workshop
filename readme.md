@@ -19,7 +19,7 @@ After you complete this workshop, you will be able to:
 * Use Azure AI Language Playground.
 
 <details markdown="block">
-<summary>Solution Architecture and Index of Key Concepts </summary>
+<summary>Solution Architecture, Prerequisites, Setup, and Index of Key Concepts </summary>
 
 ## Solution Architecture
 
@@ -29,7 +29,24 @@ The following diagram shows Azure AI Foundry and the scope of use within the env
 
 ![Diagram](./images/resource-provider-connected-resources.png)
 
-## Azure AI Resource  
+## Azure services and related products
+
+The following Azure Services are involved in the workshop:
+- Azure AI Foundry
+- Azure AI Services
+- Azure Content Safety
+
+## Prerequisites
+
+An Azure (external) subscription is required, where you can create an AI Project along with its AI Hub Resource, a Content Safety service, a new instance of Azure Service.
+
+## Setup
+
+To setup for this workshop, please click to access the setup instructions here:
+
+[Link to Setup](01_setup.md)
+
+## Azure AI Resources
    
 The Azure AI Resource is the main Azure resource for AI Foundry. It provides a working environment for teams to build and manage AI applications. It allows access to multiple Azure AI services in a single setup and includes features for billing, security configuration, and monitoring.  
    
@@ -63,27 +80,6 @@ Log Analytics Workspaces serve as the backing storage for application insights, 
 
 </details>
 
-## Azure services and related products
-
-The following Azure Services are involved in the workshop:
-- Azure AI Foundry
-- Azure AI Services
-- Azure Content Safety
-
-## Prerequisites
-
-An Azure (external) subscription is required, where you can create an AI Project along with its AI Hub Resource, a Content Safety service, a new instance of Azure Service.
-
-## Setup
-
-To setup for this workshop, please click to access the setup instructions here:
-
-[Link to Setup](01_setup.md)
-
-## Lab Duration
-
-* **Estimated Time:** 60 minutes
-
 ## Exercises
 
 This workshop covers the following:
@@ -103,3 +99,7 @@ Here are links to the exercises that are included in this workshop:
 [Use the Azure AI Vision Playground](01_03.md)
 
 [Use the Azure AI Language Playground](01_4.md)
+
+## Lab Duration
+
+* **Estimated Time:** 60 minutes
