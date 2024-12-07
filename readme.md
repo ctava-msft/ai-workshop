@@ -99,6 +99,6 @@ Here are links to the exercises that are included in this workshop:
 
 [Test language model prompts for Content Safety in the Azure AI Chat Playground](01_02.md)
 
-[Use the Azure AI Vision & Document Playground](01_03.md)
+[Use the Azure AI Vision Playground](01_03.md)
 
 [Use the Azure AI Language Playground](01_4.md)
